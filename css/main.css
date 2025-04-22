@@ -6681,9 +6681,7 @@ iframe {
 }
 
 .shop-details-section .cart-btn {
-  width: 50px;
-  min-width: 50px;
-  height: 50px;
+  padding: 5px 10px;
 }
 
 .shop-details-bigthumb {

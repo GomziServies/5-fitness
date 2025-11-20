@@ -46,6 +46,7 @@
   --bg12: #414141;
   --bg13: #595959;
   --bg14: #000000;
+  --bg15: #171717;
   --ratting: #febd15;
   --section-bg: #faf1ee;
   --danger: #f00;
@@ -697,7 +698,7 @@ h6 > a,
   font-family: var(--sub-font);
   padding: 0;
   margin: 0;
-  color: var(--n900);
+  color: var(--n0);
   line-height: 128%;
   display: block;
   transition: var(--transition);
@@ -957,7 +958,7 @@ input[type="checkbox"] {
 
 span,
 p {
-  color: var(--pp-clr);
+  color: var(--pp-clr2);
   line-height: 150%;
   font-size: 16px;
   transition: all 0.4s;
@@ -984,11 +985,11 @@ p {
 }
 
 .pp-clr {
-  color: var(--pp-clr);
+  color: var(--n0);
 }
 
 .pp-clr2 {
-  color: rgba(65, 65, 65, 0.7);
+  color: rgb(255 255 255 / 70%);
 }
 
 .n0-clr {
@@ -996,11 +997,16 @@ p {
 }
 
 .n0-bg {
-  background: var(--n0) !important;
+  /* background: var(--n0) !important; */
+  background: var(--bg15) !important;
+}
+
+.n0-bbg { 
+  background: var(--n00) !important;
 }
 
 .n00-clr {
-  color: var(--n00);
+  color: var(--n00 ) !important;
 }
 
 .n00-bg {
@@ -1135,6 +1141,10 @@ p {
 
 .bg14 {
   background: var(--bg14);
+}
+
+.bg15 {
+  background: var(--bg15);
 }
 
 .bg1-clr {
@@ -6809,7 +6819,7 @@ iframe {
 }
 
 .basics-list li {
-  color: rgba(65, 65, 65, 0.7);
+  color:rgb(255 255 255 / 70%);
   padding-left: 14px;
 }
 .basics-list li::before {
@@ -7046,7 +7056,7 @@ iframe {
   font-weight: 600;
   font-family: var(--body-font);
   transition: all 0.4s;
-  color: var(--n50);
+  /* color: var(--n50); */
   position: relative;
   background: transparent;
 }

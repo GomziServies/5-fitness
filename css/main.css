@@ -1222,11 +1222,13 @@ p {
 }
 
 .section-bg {
-  background: var(--section-bg);
+  /* background: var(--section-bg); */
+  background: black;
 }
 
 .section-bg2 {
   background: rgba(244, 241, 234, 0.6);
+  
 }
 
 .dots-cmn {
@@ -2344,6 +2346,7 @@ iframe {
   width: 100%;
   z-index: 100;
   transition: all 0.5s;
+  background-color: black;
 }
 .header-section .container {
   max-width: 1550px;
@@ -2499,7 +2502,8 @@ iframe {
     padding: 34px 0;
   }
   .header-section .main-navbar .custom-nav .menu-item a {
-    color: var(--n900);
+    /* color: var(--n900); */
+    color: white;
   }
   .header-section .main-navbar .custom-nav .menu-item.custom-menu-item {
     position: initial;
@@ -2805,7 +2809,8 @@ iframe {
   top: 0px;
   z-index: 999;
   width: 100%;
-  background: var(--section-bg);
+  /* background: var(--section-bg); */
+  background: black;
 }
 
 .hover-act4 {

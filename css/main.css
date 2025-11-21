@@ -26,15 +26,15 @@
   /* Color styles */
   --n0: #fff;
   --n00: #000;
-  --p1: #fd716f;
-  --p2: #fd716f;
+  --p1: #ed1e27;
+  --p2: #ed1e27;
   --p100: #d3e7dd;
   --p200: #e9f5da;
   --n900: #000000;
   --nw1: #d1c8c5;
   --nw2: #f4f1ea;
   --bg1: #f4f1ea;
-  --bg2: #fd716f;
+  --bg2: #ed1e27;
   --bg3: #fffadc;
   --bg4: #dfa8a0;
   --bg5: #fdf0eb;
@@ -1346,22 +1346,22 @@ iframe {
 }
 .cmn-btn.alt::before,
 .cmn-btn.alt::after {
-  background-color: #fd716f;
+  background-color: #ed1e27;
 }
 .cmn-btn.alt2::before,
 .cmn-btn.alt2::after {
-  background-color: #fd716f;
+  background-color: #ed1e27;
 }
 .cmn-btn.alt3::before,
 .cmn-btn.alt3::after {
-  background-color: #fd716f;
+  background-color: #ed1e27;
 }
 .cmn-btn.cmn-hovers:hover {
   background: var(--p1);
 }
 .cmn-btn.cmn-hovers:hover::before,
 .cmn-btn.cmn-hovers:hover::after {
-  background-color: #fd716f;
+  background-color: #ed1e27;
 }
 .cmn-btn.cmn-hovers:hover span {
   color: #000;
@@ -1968,8 +1968,8 @@ iframe {
   height: 18px;
 }
 .sidebar-wrapper .box .header-social li a:hover {
-  background: #fd716f;
-  border-color: #fd716f;
+  background: #ed1e27;
+  border-color: #ed1e27;
 }
 
 .cm-border {
@@ -2315,7 +2315,7 @@ iframe {
   right: 0%;
   position: absolute;
   border-radius: 5px;
-  background: #fd716f;
+  background: #ed1e27;
   transition: initial;
 }
 .range-form .range-input {
@@ -2395,7 +2395,7 @@ iframe {
     background: linear-gradient(
       180deg,
       rgba(244, 215, 113, 0) 0%,
-      #fd716f 100%
+      #ed1e27 100%
     );
     filter: blur(15px);
     -webkit-filter: blur(15px);
@@ -3677,7 +3677,7 @@ iframe {
   content: "";
   bottom: 0;
   left: 120px;
-  background: linear-gradient(180deg, rgba(113, 204, 154, 0) 0%, #fd716f 100%);
+  background: linear-gradient(180deg, rgba(113, 204, 154, 0) 0%, #ed1e27 100%);
   z-index: -1;
   display: flex;
   justify-content: center;
@@ -3703,7 +3703,7 @@ iframe {
   content: "";
   bottom: 0;
   right: 120px;
-  background: linear-gradient(180deg, rgba(244, 215, 113, 0) 0%, #fd716f 100%);
+  background: linear-gradient(180deg, rgba(244, 215, 113, 0) 0%, #ed1e27 100%);
   z-index: -1;
   display: flex;
   justify-content: center;
@@ -4346,7 +4346,7 @@ iframe {
   width: 610px;
   height: 610px;
   content: "";
-  background: #fd716f;
+  background: #ed1e27;
   filter: blur(121px);
   z-index: -1;
 }
@@ -5851,7 +5851,7 @@ iframe {
 }
 .product-items:hover .cmn-hovers::before,
 .product-items:hover .cmn-hovers::after {
-  background-color: #fd716f;
+  background-color: #ed1e27;
 }
 .product-items:hover .cmn-hovers span {
   color: #000 !important;
@@ -5892,7 +5892,7 @@ iframe {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: #ffa19f;
+  background: #491c1b;
   content: "";
   z-index: -1;
 }
@@ -7301,7 +7301,7 @@ iframe {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  background: linear-gradient(135deg, #fd716f 0%, #f4f1ea 100%);
+  background: linear-gradient(135deg, #ed1e27 0%, #f4f1ea 100%);
   border-radius: 20px;
   overflow: hidden;
   /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); */

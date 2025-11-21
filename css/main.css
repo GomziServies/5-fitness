@@ -1068,7 +1068,7 @@ p {
 }
 
 .nw2-border {
-  border: 1px solid var(--nw2);
+  border: 2.5px solid var(--nw2);
 }
 
 .cmn-hover {

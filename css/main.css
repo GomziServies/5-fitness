@@ -5892,7 +5892,7 @@ iframe {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: #491c1b;
+  background: #707070;
   content: "";
   z-index: -1;
 }
